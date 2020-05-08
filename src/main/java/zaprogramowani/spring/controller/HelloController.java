@@ -19,7 +19,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index(){
-        return tennisCoach.getDailyWorkout();
+        return tennisCoach.getDailyFortune();
     }
 
 //https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
